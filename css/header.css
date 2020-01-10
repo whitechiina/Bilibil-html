@@ -1,0 +1,172 @@
+/* 头部区域  */
+header{
+    width: 100%;
+    height:170px;
+    background-image: url(../images/header/bg.png);
+}
+/* 顶部导航 */
+header .Top{
+    width: 100%;
+    height:42px;
+    overflow: hidden;
+}
+header .top{
+    width: 100%;
+    height:42px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.4);
+}
+header .top .top-nav{
+    width: 1160px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+}
+/* logo */
+#header-logon{
+    display: block;
+    background-image: url(../images/header/logo-bg.png);
+    width: 220px;
+    height: 105px;
+    position: absolute;
+    left: 24px;
+    top: 55px;
+}
+.top-nav-left ul{
+    display: block;
+}
+.top-nav-left ul{
+    float: left;
+}
+.top-nav-left li{
+    float: left;
+    line-height: 41px;
+    padding: 0 7px;
+}
+.top-nav-left li:last-child{
+    position: relative;
+}
+.top-nav-left li .down-img{
+    display: none;
+}
+.top-nav-left li .down-img{
+    position: absolute;
+    left: -20px;
+    top: 42px;
+    background-image: url(../images/header/orcode-frame.png);
+    width: 259px;
+    height: 174px;
+    z-index: 999;
+}
+.top-nav-left li .down-img:before{
+    content: "";
+    position: absolute;
+    width: 97px;
+    height: 97px;
+    left: 82px;
+    top: 30px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAABhCAIAAABJZFj0AAADeklEQVR4nO2c224bMQxEs4X//5fdBwdbRyHnQikoWsx5Cbyry0YeURQp7/V8Pj8C5NfffoB/gMfrz3Vdbs1bgGXd5e6Rwq/r98Xy443SL+auGx1xHu8fRNukaGG53n3bZZWyha5f/FTdQ2KWpqIjTsaI8yiv4tmkMJsXpd3tpt7yERdTHqCrEh1xah1Z4CV5oVySu48De/8TLnF0xMkYcQ7MtRczU6q4zt30GbjOM6IjTq2jnWXe2kaVZXb2eqIJt/7B6IiTMeJ8mWs7VlB0eRaswmVH1t3ZPxgdca59x3R/Dd5fIrpiR9zu6IiTMeLUc20/6tw1uLMvHUQarSBMVyY64nzJi3RBifcy3+8qwZDloxj8xigOvUVibHMyRpzPuWaJ3ErvKS1bXoxl0UUPvnzI2GyD2mbvWFYl5WAZVFx3lhexeoyOOBkjDtrTYlXPEvz7Bh4XPjKpl38wOuKg80ez3MaC9T3vr99iv6C774WjI07GiPPFz75Z8jCKdTwSS1Q8+C5DqZhnK1QSm21Q50UU+4e/kyOOAmhfv172q3f3ER0pZIw4yD+yfOWujDUFynAortKB1xnc70J0xLnex9vKKf9pwjndAcp0xXYUKtaNjnbJGHGkePYg6SjeLTta6s4ylIrnhXfU8bMNJr+pGRzfw4VnJ0+sfpe71qIUHXEyRhzkH2FEB/pgePvnQuNl+zfREQedP7L87IWdI3hi4nsQ7rCCPzfRESdjxEG/qREDC+Vd6wTXzC/DrnNp72feU3TEQWf9bnbyeUuVRWWYRQtKOnNms7HYoyNOxohjnM/G4GTRkZNUloEvu7OIzTYw9muzL3BHKVg4g7viLnIhOuJkjDjGb9fFwx7l3Q4rFm5lKAfB0sSz50g6GuQYRFntJ0KwnI+cSImOOBkjjjTXsKrLmSiKXNm1YquvnMztrovef3TEOfbbdXGD9mKWgLEM/L4XfhMdcTJGnEuxiyXWdnHH5cH9dgxCNPGz5xx7F2t3dxCEttoXjXR5XdwMREecjBHnwLtYFQ9oJ1SCwx14cRDXopyr3eXY+yE7FGO50CWglRhb11EpZ5ySvImOOBkjzvl3sZZWU9w9Wgmf7gHKwvgudsqjI86Bd7Eqx4JmDFxnXNc6jnQTHXEyRpxj72JdGhGj3XqD4nVxe2w9QHTEORDP/u+JjjgZI85vPxPMw8KtcIgAAAAASUVORK5CYII=);
+}
+.top-nav-left i{
+    display: inline-block;
+    background-image: url(../images/icons3.png);
+    background-position: -920px -87px;
+    width: 20px;
+    height: 20px;
+    line-height: 60px;
+    position: relative;
+    top: 6px;
+}
+.top-nav-left b{
+    display: inline-block;
+    background-image: url(../images/icons3.png);
+    background-position: -1371px -1177px;
+    width: 20px;
+    height: 20px;
+    line-height: 60px;
+    position: relative;
+    top: 6px;
+}
+.top-nav-right ul{
+    display: block;
+}
+.top-nav-left li a{
+    color: white;
+    font-size: 13px;
+}
+.top-nav-right ul{
+    float: right;
+}
+.top-nav-right li{
+    float: left;
+    line-height: 41px;
+}
+
+.top-nav-right li img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin-top:5px;
+}
+.top-nav-right li a{
+    color: white;
+    font-size: 13px;
+    padding: 0 7px;
+}
+.top-nav-right li:last-child{
+    border-radius: 0 0 6px 6px;
+    background: #DC5581;
+    padding: 0px 10px;
+}
+.top-nav-right li:last-child:hover{
+    background: rgb(230, 140, 170);
+}
+.top-nav li:hover{
+    background-color: hsla(0,0%,100%,.3);;
+}
+/* 搜索框 */
+#form{
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+}
+.search .list{
+    position: absolute;
+    left: -70px;
+    top: 0px;
+    background-color: hsla(0,0%,100%,.88);
+    border-radius: 4px;
+    width: 66px;
+    height: 32px;
+    cursor: pointer;
+}
+.search .list span{
+    color: #F25D8e;
+    line-height: 32px;
+    font-size: 13px;
+    padding-left: 24px;
+    background-image: url(../images/icons3.png);
+    background-position:-660px -663px;
+}
+.search input{
+    border-radius: 5px;
+    border: 0;
+    width: 200px;
+    height: 32px;
+    text-indent: 10px;
+    background-color: hsla(0,0%,100%,.88);
+    outline: none
+}
+.search button{
+    cursor: pointer;
+    background-image: url(../images/icons3.png);
+    background-position:  -663px -728px;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    background-color: rgba(255, 255, 255, 0);
+}

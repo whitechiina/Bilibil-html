@@ -1,0 +1,451 @@
+
+/* 主体部分 */
+main{
+    width: 1160px;
+    margin:0 auto;
+    position: relative;
+}
+/* 导航 */
+nav .menu{
+    height:60px;
+}
+nav .menu li{
+    position: relative;
+    width: 68px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    z-index: 10;
+}
+nav .menu li a{
+    text-decoration: none;
+    color: #000;
+}
+nav .menu li:nth-child(1) span{
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    background-image: url(../images/icons3.png);
+    background-position:  -663px -1176px;
+    width: 24px;
+    height: 24px;
+}
+nav .menu li:nth-child(n+2) span{
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    width: 24px;
+    height: 14px;
+    background: #Ffafc9;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 10px;
+}
+nav .menu li em{
+    position: absolute;
+    bottom:16px;
+    left: 22px;
+    font-size: 13px;
+}
+nav .menu li i:nth-child(1){
+    position: absolute;
+    top:10px;
+    left: 26px;
+    background: url('../images/icons3.png') no-repeat -89px -1816px;
+	width: 14px;
+	height: 16px;
+}
+nav .menu li:nth-child(12) i{
+    position: absolute;
+    top:10px;
+    left: 26px;
+    background: url('../images/icons3.png') no-repeat -89px -1816px;
+	width: 14px;
+	height: 16px;
+}
+nav .menu li:nth-child(13) i{
+    position: absolute;
+    top:10px;
+    left: 26px;
+    background: url('../images/icons3.png') no-repeat -88px -1880px;
+	width: 14px;
+	height: 16px;
+}
+nav .menu li i:nth-child(14){
+    position: absolute;
+    top:10px;
+    left: 26px;
+    background: url('../images/icons3.png') no-repeat  -88px -1944px;
+	width: 14px;
+	height: 16px;
+}
+nav .menu li:nth-child(15) i{
+    position: absolute;
+    top:10px;
+    left: 32px;
+    background: url('../images/icons3.png') no-repeat no-repeat -88px -2009px;
+	width: 20px;
+	height: 16px;
+}
+nav .menu li:last-child{
+    position: absolute;
+    right: 10px;
+    top:5px;
+}
+
+/* 两个轮播图 */
+.banner-one{
+    width: 440px;
+    height: 220px;
+    padding-bottom: 40px;
+    position: relative;
+    float: left;
+}
+.banner-one li img{
+    position: absolute;
+    border-radius: 10px;
+}
+.banner-one a{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+.banner-one .dot{
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+.banner-one .dot li{
+    width: 18px;
+    height: 18px;
+    float: left;
+    background: url('../images/icons.png') -855px -790px no-repeat;
+    cursor: pointer;
+}
+/* 添加伪类 */
+.banner-one .dot li:hover{
+    background-position: -855px -727px;
+}
+.banner-two{
+    width: 720px;
+    height: 220px;
+    float: right;
+    overflow: hidden;
+    box-sizing:border-box;
+    padding: 10px;
+}
+.banner-two-wrap{
+    width: 2160px;
+    height: 220px;
+}
+.banner-two ul{
+    width: 720px;
+    height: 220px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.banner-two ul li{
+    width: 25%;  
+    float: left;
+}
+.banner-two li img{
+    width: 160px;
+    height: 100px;
+}
+/* 推广区 */
+.promote{
+    width: 1160px;
+    height: 225px;
+    margin: 0 auto;
+    clear:both;
+}
+.promote-left {
+    width: 880px;
+    height: 185px;
+    float: left;
+}
+.promote-left .promote-title > span{
+    display: inline-block;
+    background: url('../images/icons3.png') no-repeat -141px -78px;
+	width: 37px;
+    height: 33px;
+    vertical-align: middle;
+    padding-bottom: 8px;
+    margin-right: 10px;
+}
+.promote-left h2{
+    display: inline-block;
+    font-weight: 300;
+    line-height: 50px;
+}
+.promote-left ul{
+    display: inline-block;
+}
+.promote-left li{
+    float: left;
+    padding:0px 10px;
+    border-right:1px solid #ddd;
+}
+.promote-left li:last-child{
+    border-right: none;
+}
+.promote-left li a{
+    font-size: 10px;
+    color: #6d757a;
+}
+.promote-title{
+    width: 880px;
+    height:50px;
+}
+.count{
+    width: 262px;
+    height: 36px;
+    border-radius: 5px;
+    float: right;
+    background-color: #e5e9ef;
+    font-size: 10px;
+    line-height: 36px;
+    color: #6d757a;
+}
+.promote-content{
+    width: 880px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.promote-content div{
+    width:160px;
+    height:100px;
+}
+.promote-content img{
+    width:160px;
+    height:100px;
+    border-radius: 5px;
+}
+
+.promote-content a{
+    font-size: 10px;
+    text-align: center;
+}
+.promote-right{
+    width: 260px;
+    height: 194px;
+    float: right;
+}
+.promote-right .count span:nth-child(1){
+    margin-left: 10px;
+    padding-right: 15px;
+    border-right: 1px solid #6d757a;
+}
+.promote-right .count span:nth-child(2){
+    padding-left: 15px;
+}
+.promote-right .img{
+    width: 260px;
+    height: 150px;
+    float: right;
+    margin-top: 14px;
+}
+.promote-right .img img{
+    border-radius: 5px;
+}
+
+/* 广告 */
+.ad{
+    margin: 0 auto;
+}
+
+/* 推广区 */
+.live{
+    width: 1160px;
+    height: 400px;
+}
+.live-left{
+    width: 900px;
+    height: 381px;
+    float: left;
+}
+.live-title{
+    width: 880px;
+    height: 45px;
+    float: left;
+}
+.live-title-left{
+    float: left;
+}
+.live-title-right{
+    float: right;
+    margin-top: 12px;
+    color: #ccd0d7;
+}
+.live-title-left span{
+    background: url('../images/icons3.png');
+    background-position: -140px -655px;
+	width: 39px;
+    height: 32px;
+    float: left;
+    margin-right: 10px;
+}
+.live-title h2{
+    float: left;
+    margin-right: 10px;
+    font-weight:300;
+}
+.live-title p{
+    float: left;
+    line-height: 45px;
+    font-size: 12px;
+}
+.live-title p > em{
+    line-height: 45px;
+    color: #00a1d6;
+}
+.live-title a{
+    font-size: 12px;
+    background-image: url(../images/icons3.png);
+    background-position: -665px -1113px;
+    color: #6d757a;
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.live-title-right button{
+    background-color: #fff;
+    border: 1px solid #ccd0d7;
+    border-radius: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.live-title-right button:first-child i{
+    background-image: url(../images/icons3.png);
+    background-position: -475px -89px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+.live-title-right button:last-child i{
+    background-image: url(../images/icons3.png);
+    background-position:-478px -218px;
+    width: 6px;
+    height: 11px;
+    display: inline-block;
+}
+
+/* 主要内容 */
+.live-main{
+    width: 880px;
+    height: 346px;
+    float: left;
+}
+.live-main li{
+    width: 160px;
+    height: 173px;
+    float: left;
+    position: relative;
+    margin-left: 20px;
+}
+.live-main li:nth-child(1){
+    margin-left: 0px;
+}
+.live-main li:nth-child(6){
+    margin-left: 0px;
+}
+.live-pic img{
+    width: 160px;
+    height: 100px;
+    border-radius: 5px;
+}
+.live-use{
+    width: 160px;
+    height: 46px;
+    position: absolute;
+    top: 80px;
+}
+.live-use img{
+    width: 44px;
+    height: 44px;
+    float: left;
+    border-radius: 22px;
+    float: left;
+}
+.live-use span{
+    width: 105px;
+    height: 16px;
+    font-size: 12px;
+    color: #000;
+    float: right;
+    margin-top: 27px;
+    margin-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.live-fot span{
+    font-size: 13px;
+    color: #909090;
+    padding: 0px 5px;
+}
+.live-fot {
+    width: 160px;
+    height: 20px;
+    position: absolute;
+    top:130px;
+}
+.live-fot span em{
+    display: inline-block;
+    background-image: url(../images/icons3.png);
+    background-position: -282px -151px;
+	width: 12px;
+    height: 14px;
+    padding: 0 2px;
+}
+.live-fot span i{
+    display: inline-block;
+    background-image: url(../images/icons3.png);
+    background-position: -282px -279px;
+	width: 12px;
+    height: 14px;
+    padding: 0 2px;
+}
+
+/* 直播右 */
+.live-right{
+    width: 260px;
+    height: 400px;
+    float: right;
+    position: relative;
+}
+.live-right-title ul{
+    margin-top:16px;
+    padding-bottom: 10px;
+}
+
+.live-right-title li{
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #000;
+    padding-bottom: 4px;
+}
+.live-right-title li:hover{
+    border-bottom: 1px solid #00a1d6;
+    color: #00a1d6;
+}
+.live-right .img{
+    position: absolute;
+    top: 44px;
+}
+.live-right .img img{
+    border-radius: 5px;
+}
+.live-right .img a{
+    font-size: 12px;
+}

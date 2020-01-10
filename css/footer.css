@@ -1,0 +1,151 @@
+footer{
+    width: 100%;
+    height: 262px;
+    background-color: #f6f9fa;
+    color: #222;
+    margin-top: 50px;
+}
+footer .footer-wrap{
+    width: 1160px;
+    height: 262px;
+    margin: 0 auto;
+}
+/* 上部分 */
+.fot-top{
+    width: 1160px;
+    height: 100px;
+    padding-top: 30px;
+}
+.fot-top .bill{
+    float: left;
+    padding-right: 66px;
+}
+.fot-top .bill ul{
+    width: 172px;
+    display: block;
+    float: left;    
+    margin-top: 13px;
+    height: 51px;
+}
+.fot-top .bill ul li,.fot-top .help ul li{
+    float: left;
+    width: 86px;
+    margin-top: 6px;
+    float: left;
+    font-weight: 100;
+    font-size: 13px;
+}
+.fot-top .bill img{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.help{
+    float: left;
+    padding-right: 98px;
+    padding-left: 44px;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+.help ul{
+    width: 258px;
+    display: block;
+    float: left;    
+    margin-top: 13px;
+    height: 51px;
+}
+
+.transmit{
+    float: left;
+    padding-left: 44px;
+}
+.transmit ul{
+    width: 258px;
+    display: block;
+}
+.transmit ul li{
+    width: 86px;
+    margin-top: 6px;
+    float: left;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+/* 下部分 */
+.fot-bot{
+    width: 1160px;
+    height: 100px;
+    margin-top: 28px;
+}
+.fot-bot .join{
+    background-image: url(../images/footer/2.png);
+    background-position: 0px 0px;
+    width: 119px;
+    height: 96px;
+    float: left;
+}
+.fot-bot .info{
+    float: left;
+}
+.fot-bot .info p{
+    font-size: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 21px;
+    color: #B1B1B1;
+}
+.fot-bot .relation,.relation {
+    margin-left: 100px;
+}
+.fot-bot .relation,.relation div{
+    float: left;
+}
+
+.fot-bot .relation .mobile{
+    width: 68px;
+    height: 85px;
+    position: relative;
+    background: url(../images/icons.png) no-repeat -1020px -190px;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.fot-bot .relation .mobile img{
+    position: absolute;
+    top: -150px;
+    left: -32px;
+}
+.fot-bot .relation .siNa{
+    width: 68px;
+    height: 85px;
+    position: relative;
+    background: url(../images/icons.png) no-repeat -1020px -318px;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.fot-bot .relation .siNa img{
+    position: absolute;
+    top: -150px;
+    left: -32px;
+}
+.fot-bot .relation .WeChat{
+    width: 68px;
+    height: 85px;
+    position: relative;
+    background: url(../images/icons.png) no-repeat -1020px -62px;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.fot-bot .relation .WeChat img{
+    position: absolute;
+    top: -150px;
+    left: -32px;
+}
+.fot-bot .relation p{
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
